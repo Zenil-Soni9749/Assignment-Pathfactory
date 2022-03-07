@@ -52,7 +52,7 @@ Right Click Project Structure--> Refresh and GotoMaven-->Update Project
 
 How to run this Framework in Eclipse?
 
-Right Click Folder Structure --> Run As --> Maven Clean --> Mavne Build --> Maven test
+Right Click Folder Structure --> Run As --> Maven Clean --> Maven test
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/101087288/157058994-0a499260-7ff9-450b-8fec-afd1267fe7ca.png)
 
@@ -69,6 +69,8 @@ How to run this Framework using cmd?
 Goto the cloned project Folder Structure open CMD
 
 Use Maven commands(Make sure to install Maven)
+
+
   --mvn -version
   --mvn clean
   --mvn test
