@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pathfactory Assignment">
+
+<listeners>
+<listener class-name="assignment.pathfactory.qa.ExtentReportListener.ExtentReporterNG" />
+</listeners>
+
+	<test name="Assignment Pathfactory" preserve-order="true">
+		<classes>
+			<class name="assignment.pathfactory.qa.testcases.HomePageTest"></class>
+				<class name="assignment.pathfactory.qa.testcases.ForgotPasswordTest"></class>
+		</classes>
+	</test>
+</suite>
