@@ -22,7 +22,7 @@ public class TestBase {
 	public TestBase() throws IOException, FileNotFoundException {
 		configProp = new Properties();
 		FileInputStream fps = new FileInputStream(
-				"C:\\Workspace\\Assignment-PathFactory\\src\\main\\java\\assignment\\pathfactory\\qa\\config\\config.properties");
+				Utils.SYSTEM_DIR+"\\src\\main\\java\\assignment\\pathfactory\\qa\\config\\config.properties");
 		configProp.load(fps);
 
 	}
